@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, Roboto, system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial; background: #f6f8fa; color: #111827 }
+.container { max-width: 980px; margin: 32px auto; padding: 0 16px }
+.nav { display:flex; justify-content:space-between; align-items:center; padding:12px 0 }
+.team-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:16px }
+.card { background:white; border-radius:8px; padding:12px; box-shadow:0 1px 3px rgba(0,0,0,0.08) }
